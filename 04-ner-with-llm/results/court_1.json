@@ -1,0 +1,42 @@
+{
+  "document": "court_1",
+  "chars": 1951,
+  "chunks": 1,
+  "total_tokens": 1567,
+  "entities": {
+    "document_type": "Решение по административному делу",
+    "contract_number": "5-29/2013",
+    "parties": [
+      {
+        "role": "Мировой судья",
+        "name": "Стасенко О.Н.",
+        "inn": null,
+        "kpp": null
+      },
+      {
+        "role": "Лицо, в отношении которого рассматривается дело",
+        "name": "Шевченко Андрей Витальевич",
+        "inn": null,
+        "kpp": null
+      }
+    ],
+    "dates": {
+      "signing_date": "г. Биробиджан <ДАТА1>",
+      "valid_from": null,
+      "valid_until": null
+    },
+    "amounts": [],
+    "obligation_terms": [
+      {
+        "obligation": "назначить наказание",
+        "term": "в виде административного ареста сроком 4 (четверо) суток",
+        "deadline_date": null
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_answers": [
+    "```\n{\n  \"document_type\": \"Решение по административному делу\",\n  \"contract_number\": \"5-29/2013\",\n  \"parties\": [\n    {\"role\": \"Мировой судья\", \"name\": \"Стасенко О.Н.\", \"inn\": null, \"kpp\": null},\n    {\"role\": \"Лицо, в отношении которого рассматривается дело\", \"name\": \"Шевченко Андрей Витальевич\", \"inn\": null, \"kpp\": null}\n  ],\n  \"dates\": {\n    \"signing_date\": \"г. Биробиджан <ДАТА1>\",\n    \"valid_from\": null,\n    \"valid_until\": null\n  },\n  \"amounts\": [],\n  \"obligation_terms\": [\n    {\"obligation\": \"назначить наказание\", \"term\": \"в виде административного ареста сроком 4 (четверо) суток\", \"deadline_date\": null}\n  ]\n}\n```"
+  ]
+}

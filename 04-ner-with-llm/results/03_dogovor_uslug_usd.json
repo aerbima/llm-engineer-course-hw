@@ -1,0 +1,70 @@
+{
+  "document": "03_dogovor_uslug_usd",
+  "chars": 730,
+  "chunks": 1,
+  "total_tokens": 1583,
+  "entities": {
+    "document_type": "SERVICE AGREEMENT / ДОГОВОР ОКАЗАНИЯ УСЛУГ",
+    "contract_number": "SA-2026/08",
+    "parties": [
+      {
+        "role": "Исполнитель",
+        "name": "ТОО «Digital Steppe»",
+        "inn": null,
+        "kpp": null
+      },
+      {
+        "role": "Заказчик",
+        "name": "ООО «Нева Логистик»",
+        "inn": "7804567890",
+        "kpp": "780401001"
+      }
+    ],
+    "dates": {
+      "signing_date": "20.08.2026",
+      "valid_from": null,
+      "valid_until": "до полного исполнения обязательств"
+    },
+    "amounts": [
+      {
+        "value": 18500.0,
+        "currency": "USD",
+        "source_text": "18 500 (восемнадцать тысяч пятьсот) долларов США",
+        "purpose": "стоимость услуг"
+      },
+      {
+        "value": 5000.0,
+        "currency": "USD",
+        "source_text": "5 000 USD",
+        "purpose": "аванс"
+      }
+    ],
+    "obligation_terms": [
+      {
+        "obligation": "разработать мобильное приложение",
+        "term": "согласно техническому заданию",
+        "deadline_date": null
+      },
+      {
+        "obligation": "оплатить аванс",
+        "term": "в течение 10 банковских дней с даты подписания",
+        "deadline_date": null
+      },
+      {
+        "obligation": "передать первую версию приложения",
+        "term": "в течение 60 календарных дней с даты получения аванса",
+        "deadline_date": null
+      },
+      {
+        "obligation": "гарантийная поддержка",
+        "term": "6 месяцев с даты подписания акта",
+        "deadline_date": null
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_answers": [
+    "```\n{\n  \"document_type\": \"SERVICE AGREEMENT / ДОГОВОР ОКАЗАНИЯ УСЛУГ\",\n  \"contract_number\": \"SA-2026/08\",\n  \"parties\": [\n    {\n      \"role\": \"Исполнитель\",\n      \"name\": \"ТОО «Digital Steppe»\",\n      \"inn\": null,\n      \"kpp\": null\n    },\n    {\n      \"role\": \"Заказчик\",\n      \"name\": \"ООО «Нева Логистик»\",\n      \"inn\": \"7804567890\",\n      \"kpp\": \"780401001\"\n    }\n  ],\n  \"dates\": {\n    \"signing_date\": \"20.08.2026\",\n    \"valid_from\": null,\n    \"valid_until\": \"до полного исполнения обязательств\"\n  },\n  \"amounts\": [\n    {\n      \"value\": 18500,\n      \"currency\": \"USD\",\n      \"source_text\": \"18 500 (восемнадцать тысяч пятьсот) долларов США\",\n      \"purpose\": \"стоимость услуг\"\n    },\n    {\n      \"value\": 5000,\n      \"currency\": \"USD\",\n      \"source_text\": \"5 000 USD\",\n      \"purpose\": \"аванс\"\n    }\n  ],\n  \"obligation_terms\": [\n    {\n      \"obligation\": \"разработать мобильное приложение\",\n      \"term\": \"согласно техническому заданию\",\n      \"deadline_date\": null\n    },\n    {\n      \"obligation\": \"оплатить аванс\",\n      \"term\": \"в течение 10 банковских дней с даты подписания\",\n      \"deadline_date\": null\n    },\n    {\n      \"obligation\": \"передать первую версию приложения\",\n      \"term\": \"в течение 60 календарных дней с даты получения аванса\",\n      \"deadline_date\": null\n    },\n    {\n      \"obligation\": \"гарантийная поддержка\",\n      \"term\": \"6 месяцев с даты подписания акта\",\n      \"deadline_date\": null\n    }\n  ]\n}\n```"
+  ]
+}

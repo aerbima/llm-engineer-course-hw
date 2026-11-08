@@ -1,0 +1,60 @@
+{
+  "document": "07_dlinny_dogovor_TO",
+  "chars": 14052,
+  "chunks": 2,
+  "total_tokens": 4526,
+  "entities": {
+    "document_type": "договор оказания услуг по техническому обслуживанию",
+    "contract_number": "ТО-88/2026",
+    "parties": [
+      {
+        "role": "Исполнитель",
+        "name": "ООО «ИнжСервис»",
+        "inn": "1657001122",
+        "kpp": "165701001"
+      },
+      {
+        "role": "Заказчик",
+        "name": "ПАО «КамаТранс»",
+        "inn": "1650334455",
+        "kpp": "165001001"
+      }
+    ],
+    "dates": {
+      "signing_date": "12 января 2026 г.",
+      "valid_from": "01.02.2026",
+      "valid_until": "31.01.2027"
+    },
+    "amounts": [
+      {
+        "value": 96000.0,
+        "currency": "RUB",
+        "source_text": "96 000 (девяносто шесть тысяч) рублей в месяц, в том числе НДС",
+        "purpose": "стоимость услуг"
+      }
+    ],
+    "obligation_terms": [
+      {
+        "obligation": "оказание услуг по техническому обслуживанию систем пожарной сигнализации на объектах Заказчика",
+        "term": null,
+        "deadline_date": null
+      },
+      {
+        "obligation": "оплачивать услуги ежемесячно",
+        "term": "в течение 10 рабочих дней с даты подписания акта оказанных услуг",
+        "deadline_date": null
+      },
+      {
+        "obligation": "устранять выявленные неисправности",
+        "term": "в течение 24 часов с момента получения заявки",
+        "deadline_date": null
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_answers": [
+    "```\n{\n  \"document_type\": \"договор оказания услуг по техническому обслуживанию\",\n  \"contract_number\": \"ТО-88/2026\",\n  \"parties\": [\n    {\n      \"role\": \"Исполнитель\",\n      \"name\": \"ООО «ИнжСервис»\",\n      \"inn\": \"1657001122\",\n      \"kpp\": \"165701001\"\n    },\n    {\n      \"role\": \"Заказчик\",\n      \"name\": \"ПАО «КамаТранс»\",\n      \"inn\": \"1650334455\",\n      \"kpp\": \"165001001\"\n    }\n  ],\n  \"dates\": {\n    \"signing_date\": \"12 января 2026 г.\",\n    \"valid_from\": null,\n    \"valid_until\": null\n  },\n  \"amounts\": [],\n  \"obligation_terms\": [\n    {\n      \"obligation\": \"оказание услуг по техническому обслуживанию систем пожарной сигнализации на объектах Заказчика\",\n      \"term\": null,\n      \"deadline_date\": null\n    }\n  ]\n}\n```",
+    "```\n{\n  \"document_type\": null,\n  \"contract_number\": null,\n  \"parties\": [],\n  \"dates\": {\n    \"signing_date\": null,\n    \"valid_from\": \"01.02.2026\",\n    \"valid_until\": \"31.01.2027\"\n  },\n  \"amounts\": [\n    {\n      \"value\": 96000,\n      \"currency\": \"RUB\",\n      \"source_text\": \"96 000 (девяносто шесть тысяч) рублей в месяц, в том числе НДС\",\n      \"purpose\": \"стоимость услуг\"\n    }\n  ],\n  \"obligation_terms\": [\n    {\n      \"obligation\": \"оплачивать услуги ежемесячно\",\n      \"term\": \"в течение 10 рабочих дней с даты подписания акта оказанных услуг\",\n      \"deadline_date\": null\n    },\n    {\n      \"obligation\": \"устранять выявленные неисправности\",\n      \"term\": \"в течение 24 часов с момента получения заявки\",\n      \"deadline_date\": null\n    }\n  ]\n}\n```"
+  ]
+}

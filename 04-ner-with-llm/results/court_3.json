@@ -1,0 +1,42 @@
+{
+  "document": "court_3",
+  "chars": 3878,
+  "chunks": 1,
+  "total_tokens": 2108,
+  "entities": {
+    "document_type": "Решение по административному делу",
+    "contract_number": "5-______/1-2013",
+    "parties": [
+      {
+        "role": "Мировой судья",
+        "name": "Фомичева И.Е.",
+        "inn": null,
+        "kpp": null
+      },
+      {
+        "role": "Лицо, привлекаемое к ответственности",
+        "name": "Акишин Д.В.",
+        "inn": null,
+        "kpp": null
+      }
+    ],
+    "dates": {
+      "signing_date": "03 апреля 2013 года",
+      "valid_from": null,
+      "valid_until": null
+    },
+    "amounts": [],
+    "obligation_terms": [
+      {
+        "obligation": "признать виновным и назначить наказание",
+        "term": "в виде лишения права управления транспортным средством на срок один год и восемь месяцев",
+        "deadline_date": null
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_answers": [
+    "```\n{\n  \"document_type\": \"Решение по административному делу\",\n  \"contract_number\": \"5-______/1-2013\",\n  \"parties\": [\n    {\n      \"role\": \"Мировой судья\",\n      \"name\": \"Фомичева И.Е.\",\n      \"inn\": null,\n      \"kpp\": null\n    },\n    {\n      \"role\": \"Лицо, привлекаемое к ответственности\",\n      \"name\": \"Акишин Д.В.\",\n      \"inn\": null,\n      \"kpp\": null\n    }\n  ],\n  \"dates\": {\n    \"signing_date\": \"03 апреля 2013 года\",\n    \"valid_from\": null,\n    \"valid_until\": null\n  },\n  \"amounts\": [],\n  \"obligation_terms\": [\n    {\n      \"obligation\": \"признать виновным и назначить наказание\",\n      \"term\": \"в виде лишения права управления транспортным средством на срок один год и восемь месяцев\",\n      \"deadline_date\": null\n    }\n  ]\n}\n```"
+  ]
+}

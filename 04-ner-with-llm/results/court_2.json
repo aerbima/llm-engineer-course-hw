@@ -1,0 +1,49 @@
+{
+  "document": "court_2",
+  "chars": 8552,
+  "chunks": 1,
+  "total_tokens": 3138,
+  "entities": {
+    "document_type": "Решение по административному делу",
+    "contract_number": null,
+    "parties": [
+      {
+        "role": "Мировой судья",
+        "name": "Подушко Анна Владимировна",
+        "inn": null,
+        "kpp": null
+      },
+      {
+        "role": "Правонарушитель",
+        "name": "Черных В. С.",
+        "inn": null,
+        "kpp": null
+      }
+    ],
+    "dates": {
+      "signing_date": "03 января 2013 года",
+      "valid_from": null,
+      "valid_until": null
+    },
+    "amounts": [
+      {
+        "value": 5000.0,
+        "currency": "RUB",
+        "source_text": "пять тысяч рублей",
+        "purpose": "размер штрафа"
+      }
+    ],
+    "obligation_terms": [
+      {
+        "obligation": "назначить наказание в виде административного ареста",
+        "term": "на 13 (тринадцать) суток",
+        "deadline_date": "02 января 2013 года"
+      }
+    ]
+  },
+  "errors": [],
+  "warnings": [],
+  "raw_answers": [
+    "```\n{\n  \"document_type\": \"Решение по административному делу\",\n  \"contract_number\": null,\n  \"parties\": [\n    {\n      \"role\": \"Мировой судья\",\n      \"name\": \"Подушко Анна Владимировна\",\n      \"inn\": null,\n      \"kpp\": null\n    },\n    {\n      \"role\": \"Правонарушитель\",\n      \"name\": \"Черных В. С.\",\n      \"inn\": null,\n      \"kpp\": null\n    }\n  ],\n  \"dates\": {\n    \"signing_date\": \"03 января 2013 года\",\n    \"valid_from\": null,\n    \"valid_until\": null\n  },\n  \"amounts\": [\n    {\n      \"value\": 5000,\n      \"currency\": \"RUB\",\n      \"source_text\": \"пять тысяч рублей\",\n      \"purpose\": \"размер штрафа\"\n    }\n  ],\n  \"obligation_terms\": [\n    {\n      \"obligation\": \"назначить наказание в виде административного ареста\",\n      \"term\": \"на 13 (тринадцать) суток\",\n      \"deadline_date\": \"02 января 2013 года\"\n    }\n  ]\n}\n```"
+  ]
+}
