@@ -1,0 +1,17 @@
+[project]
+name = "05-private-gpt-acs"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0",
+    "gradio>=6.0",
+    "langchain-chroma>=1.0",
+    "langchain-community>=0.4",
+    "langchain-core>=1.0",
+    "langchain-ollama>=1.0",
+    "langchain-openai>=1.0",
+    "langchain-text-splitters>=1.0",
+    "pypdf>=6.0",
+    "pytest>=8.0",
+    "python-dotenv>=1.0",
+]

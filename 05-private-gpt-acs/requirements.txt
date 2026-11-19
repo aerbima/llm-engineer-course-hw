@@ -1,0 +1,20 @@
+# Ядро LangChain: сообщения, промпты, оценка токенов
+langchain-core>=1.0
+# Разбиение текста на чанки (RecursiveCharacterTextSplitter, MarkdownHeaderTextSplitter)
+langchain-text-splitters>=1.0
+# Загрузчик PDF (PyPDFLoader) и сам парсер PDF
+langchain-community>=0.4
+pypdf>=6.0
+# Локальная LLM и эмбеддинги через Ollama
+langchain-ollama>=1.0
+# Векторная база ChromaDB и адаптер LangChain к ней
+chromadb>=1.0
+langchain-chroma>=1.0
+# Веб-интерфейс
+gradio>=6.0
+# Настройки из файла .env
+python-dotenv>=1.0
+# Запасной вариант: эмулятор закрытого контура школы / LM Studio (OpenAI-совместимый API)
+langchain-openai>=1.0
+# Тесты без Ollama
+pytest>=8.0
